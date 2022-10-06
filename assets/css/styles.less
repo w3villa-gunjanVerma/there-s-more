@@ -12,6 +12,7 @@ common variable
 @theme-designer-card-width:50px;
 @text-colo-grey:rgba(208, 199, 199, 0.83);
 @back-border-radius:20px;
+@padding-xy:17px 16px;
 
 .section-background-color {
     background: linear-gradient(to right bottom, #f04a4a, #a20febf8);
@@ -34,8 +35,8 @@ common variable
     }
 
     .qr-code {
-        height: 100px;
-        width: 100px;
+     
+        width: 61px;
         object-fit: contain;
     }
 
@@ -50,13 +51,6 @@ common variable
     /*************************
         Common class
     **************************/ 
-    // .para-align{
-    //     line-height: 1.2;
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     margin: 32px;
-    // }
     .card-border-raius{
         border-radius: @back-border-radius;
     }
@@ -87,6 +81,10 @@ common variable
     .font-33{
         font-size: 33px;
     }
+    .font-25{
+        font-size: 23px;
+        padding-bottom: 2px;
+    }
     .font-40{
         font-size: 80px;
     }
@@ -96,8 +94,103 @@ common variable
     .font-18{
         font-size: 18px;
     }
+    .padding-bottom-13{
+        padding-bottom: 13px;
+    }
+    .ptb-42{
+        padding-top: 42px !important;
+        padding-bottom: 42px !important;
+        
+    }
+    .ptb-20{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .margin-bottom{
+        margin-bottom: 14px;
+    }
     h1{
         font-size: 55px;
     }
-   
+    p{
+        line-height: 1.2;
+    }
+   .custom-padding{
+        padding: @padding-xy;
+   }
+   .custom-coffee-padding{
+    padding:34px 20px;
+   }
+   .margin-right-22{
+    margin-right:22px ;
+  
+   }
+   .padding-bottom-31{
+    padding-bottom: 31px;
+   }
+   .font-coffee{
+     font-family: 'Courgette', cursive;
+     font-size: 22px;
+   }
+   .QR{
+    font-size: 13px;
+    padding-top: 8px;
+   }
+   .padding-bottom-31{
+    padding-bottom: 9px;
+   }
+   .custom-padding-31{
+    padding: 31px;
+   }
+   .custom-padding-19{
+    padding: 19px;
+   }
+   .custom-padding-18{
+    padding: 18px;
+   }
+   .btn{
+    width: 140px !important;
+    border-radius: 25px !important;
+   }
+   .btn-align{
+    padding-left: 60px;
+    padding-top: 5px;
+   }
+   .btn-style{
+    overflow: hidden;
+    padding-left: 9px;
+   }
+   .btn-transparent{
+    height: 38px;
+    /* color: yellow; */
+    /* background-color: transparent; */
+    border: unset;
+    background: #ffffff2b;
+   }
+   .btn-purple{
+    background-color: #8f00d2;
+    border: unset;
+   }
+//    .circle{
+//     height: 10px;
+//     width: 10px;
+//     border: unset;
+//     background-color: transparent;
+//     border-color: white;
+//     border-width: 3px;
+//    }
+.progress {
+  
+    background-color: #2d3c3cad;
+   color: white;
+}
+.progress-bar {
+    background-color: #125679d9;
+}
+.item-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 }
